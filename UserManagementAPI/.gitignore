@@ -1,8 +1,65 @@
+## Build Folders
 bin/
 obj/
+[Bb]uild/
+[Ll]og/
+[Ll]ogs/
+
+## User-Specific Files
 *.user
+*.userosscache
 *.suo
-*.idea/
+*.sln.docstates
 *.vs/
-*.log/
+.vscode/
+.idea/
+*.swp
 *.db
+
+## OS Files
+.DS_Store
+Thumbs.db
+
+## Rider/JetBrains
+.idea/
+*.iml
+
+## Visual Studio Files
+*.psess
+*.vsp
+*.vspx
+*.vspscc
+
+## Packages
+*.nupkg
+*.snupkg
+packages/
+*.nuget.props
+*.nuget.targets
+project.lock.json
+
+## Publish outputs
+publish/
+wwwroot/
+dist/
+
+## Entity Framework
+Migrations/*Designer.cs
+*.dbmdl
+*.bak
+*.mdf
+*.ldf
+
+## DotNet tools
+*.dotnet/tools
+
+## Azure
+PublishProfiles/
+*.pubxml
+*.publishproj
+
+## Other
+*.tmp
+*.log
+*.bak
+*.seed

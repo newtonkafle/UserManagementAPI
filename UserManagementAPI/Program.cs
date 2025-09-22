@@ -71,7 +71,6 @@ app.Use(async (context, next) =>
 
 app.MapGet("/", () =>
 {
-    throw new Exception("Testing the exception handler middleware");
 });
 
 // endpoint to get all the users
